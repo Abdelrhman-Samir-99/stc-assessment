@@ -11,12 +11,12 @@ SpringBoot application to download/ upload files.
 
 
 ## Database Query
-Nothing to mention, but complex queries are not my strongest area.
+Nothing to mention.
 
 
 ## System Design
 + I Created all the requested end-points.
-+ I also added Swagger for the APIs documentation, if you are interested to have a look
++ I also added Swagger for the APIs documentation, if you are interested in having a look
 > `http://localhost:8080/swagger-ui/index.html`
 + Did my best to follow the SOLID principles, especially the "SRS".
 + The things I used
