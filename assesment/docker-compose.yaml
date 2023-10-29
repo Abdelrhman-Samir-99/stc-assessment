@@ -1,0 +1,19 @@
+version: '3'
+services:
+ spring-app:
+  image: springboot:3.1.5
+  ports:
+   - 8080:8080
+  depends_on:
+   - postgres-db
+  environment:
+   SPRING_DATASOURCE_URL: jdbc:postgresql://postgres-db:5432/stc-assessment
+   SPRING_DATASOURCE_USERNAME: postgres
+   SPRING_DATASOURCE_PASSWORD: 1234
+
+ postgres-db:
+  image: postgres
+  environment:
+   POSTGRES_DB: stc-assessment
+   POSTGRES_USER: postgres
+   POSTGRES_PASSWORD: 1234
