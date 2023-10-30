@@ -18,7 +18,7 @@ Nothing to mention.
 + I Created all the requested end-points.
 + I also added Swagger for the APIs documentation, if you are interested in having a look
 > `http://localhost:8080/swagger-ui/index.html`
-+ Did my best to follow the SOLID principles, especially the "SRS".
++ Did my best to follow the SOLID principles, especially the "SRP".
 + The things I used
   + SpringBoot - PostgreSQL - JUnit - Mockito - Swagger
 + Things TODO
